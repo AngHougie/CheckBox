@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <CheckBox
+        android:id="@+id/checkBox_chocolate_syrup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/chocolate_syrup"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_sprinkles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/sprinkles"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_crushed_nuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/crushed_nuts"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_cherries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/cherries"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_orio_cookie_crumbles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/orio_cookie_crumbles"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/button_show_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showMsg"
+        android:text="@string/show_toast"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+</LinearLayout>
